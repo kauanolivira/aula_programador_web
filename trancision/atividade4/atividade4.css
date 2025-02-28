@@ -1,0 +1,24 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    transition-duration: 3s;
+    border: 2px solid black;
+}
+
+.central:hover {
+    border: 15px solid black;
+    transition-duration: 2s;
+}

@@ -1,0 +1,49 @@
+@keyframes exemplo {
+    50% {border-right: transparent;}
+   
+   }
+   
+   @keyframes texto {
+    0% { width: 0;
+
+    }
+    45% {
+        width: 27ch;
+    }
+    60% {
+        width: 27ch;
+    }
+    100% {
+        width: 0;
+    }
+   }
+   
+   
+   body, html {
+       height: 100vh;
+   }
+   
+   body {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .p {
+    font-family: monospace;
+       border-right: 4px solid;
+       background-color: rgb(255, 255, 255);
+      position: relative;
+       animation:texto 0.5s steps(27) infinite, exemplo 5s infinite;
+       animation-duration: 6s;
+       animation-timing-function:steps(27) 2s;
+       animation-direction: normal;
+       white-space: nowrap;
+       width: 27ch;
+       overflow: hidden;
+   }
+
+   .p span {
+color: aqua;
+   }

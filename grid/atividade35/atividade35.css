@@ -1,0 +1,20 @@
+.colunas  {
+    display: grid;
+    grid-template-columns:  100px max-content  100px;
+    grid-template-rows: 400px 400px 400px ;
+    gap: 1px;
+}
+
+.coluna1 {
+    background-color: rgb(61, 54, 153);
+    width: 100px;
+}
+.coluna2 {
+    background-color: rgb(167, 167, 167);
+   color: #fff;
+
+}
+.coluna3 {
+    background-color: rgb(61, 54, 153);
+    width: 100px;
+}

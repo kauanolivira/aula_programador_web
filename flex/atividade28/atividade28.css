@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html {
+    height: 100vh;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.d66{
+    width: 66%;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+.d33{
+    width: 33%;
+    height: 500px;
+    background-color: rgb(52, 109, 109);
+}

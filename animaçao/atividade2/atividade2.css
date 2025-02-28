@@ -1,0 +1,35 @@
+@keyframes exemplo {
+    0% {left:0px;bottom:0px; right: 0px; top: 0px;  transform: rotate(0deg);}
+    25% {left:0px;bottom:0px; right: 0px; top: 0px;   transform: rotate(90deg);}
+    50% {left:0px;bottom:0px; right: 0px; top: 0px; transform:  rotate(180deg);}
+    75% {left:0px;bottom:0px; right: 0px; top: 0px;  transform:  rotate(270deg);}
+    100%{left:0px;bottom:0px; right: 0px; top: 0px; transform:  rotate(360deg)}
+   }
+   
+   
+   
+   
+   body, html {
+       height: 100vh;
+   }
+   
+   body {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .central1 {
+       width: 250px;
+       height: 250px;
+       background-color: rgb(93, 133, 54);
+      position: relative;
+       animation-name: exemplo;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+       animation-timing-function:linear;
+       animation-direction: normal;
+   }
+
+   

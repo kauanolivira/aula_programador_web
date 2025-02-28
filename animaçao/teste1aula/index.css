@@ -1,0 +1,33 @@
+@keyframes exemplo {
+ 0% {left:0px;bottom:0px; right: 0px; top: 0px; background-color: aqua;}
+ 25% {left:100px;bottom:0px; right: 0px; top: 0px; background-color: aquamarine;}
+ 50% {left:100px;bottom:0px; right: 0px; top: 100px; background-color: blueviolet;}
+ 75% {left:0px;bottom:0px; right: 100px; top: 100px; background-color: burlywood;}
+ 100%{left:0px;bottom:100px; right: 100px; top: 0px;background-color: cadetblue;}
+}
+
+
+
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.central1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(93, 133, 54);
+   position: relative;
+    animation-name: exemplo;
+    animation-duration: 5s;
+    animation-iteration-count: 100000000;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+}

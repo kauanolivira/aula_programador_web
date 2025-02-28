@@ -1,0 +1,39 @@
+@keyframes exemplo {
+
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(30,0);
+    }
+    75% {
+        transform: translate(-30,0);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+   
+   
+   
+   
+   body, html {
+       height: 100vh;
+   }
+   
+   body {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .p {
+       width: 100px;
+       height: 50px;
+       background-color: rgb(93, 133, 54);
+      position: relative;
+      transition: all 1.2s ease;
+      transition-duration: 2s;
+      animation: exemplo 2s;
+   }

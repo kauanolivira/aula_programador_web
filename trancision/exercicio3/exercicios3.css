@@ -1,0 +1,35 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.central {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+  
+}
+
+.fade-in {
+    display: flex;
+    
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+    color: aqua;
+}
+
+
+
+
+.fade-in:hover {
+    transition-delay: 2s;
+    color: black;
+}
