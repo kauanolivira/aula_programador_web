@@ -1,0 +1,48 @@
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 80px 500px 300px;
+    gap: 10px;
+}
+.grid-container > div {
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.conteudo {
+    display: grid;
+    grid-template-areas:
+  "h h h h"  
+  "m c c c"
+  "m c c c"
+  ;
+  grid-template-rows: 80px 500px 80px ;
+}
+
+.item1 {
+    background-color: rgb(61, 54, 153);
+    grid-area: h;
+    color: #fff;
+    text-align: center;
+}
+.item2 {
+    background-color: rgb(167, 167, 167);
+    grid-area: m;
+ height: 200px;
+ color: #fff;
+ text-align: center;
+}
+.item3 {
+    background-color: rgb(211, 130, 130);
+    grid-area: c;
+  height: 148%;
+  color: #fff;
+  text-align: center;
+}

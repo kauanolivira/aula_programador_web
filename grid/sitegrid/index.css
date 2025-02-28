@@ -1,0 +1,324 @@
+:root {
+    --azulpadrao: rgb(99,75,233);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(235, 235, 235);
+
+}
+body html {
+
+    height: 100vh;
+    width: 100%;
+    
+}
+.colunas  {
+    display: grid;
+    grid-template-columns: 300px 1fr ;
+    grid-template-rows: 1400px 50px  ;
+    gap: 5px;
+}
+.coluna1 {
+    display: grid;
+ 
+    background-color: rgb(255, 255, 255);  
+}
+.coluna2  {
+    display: grid;
+    background-color: rgb(212, 212, 212);
+    height: 50px;
+    border-radius: 10px;
+    padding: 8px;
+} 
+
+
+
+
+
+ .banner 
+    {
+    margin-left: 20px;
+     background-color: rgb(255, 255, 255);
+     width: 15px;
+     height: 30px;
+     border-radius: 15px;
+    transition-duration: 4s;
+     
+    }
+
+    .banner:hover{
+            width: 720px;
+    }
+
+    .botao {
+     margin: 10px;
+   
+     background-color: var(--azulpadrao);
+     color: rgb(255, 255, 255);
+     width: 250px;
+     height: 50px;
+     border-radius: 10px;
+     cursor: pointer;
+
+    }  
+    
+        ul li {
+            list-style: none;
+            color: rgb(0, 0, 0);
+            
+        }
+
+
+     .banner2
+     {
+        margin-top: 20px;
+     margin-left: 20px;
+      background-color: rgb(255, 255, 255);
+      width: 0px;
+      height: 300px;
+      border-radius: 5px;
+      
+
+    }
+    .lupa {
+        display: flex;
+        margin-top: 3px;
+        margin-right: 40px;
+        flex-direction: row;
+        background-color: rgb(212, 212, 212) ;
+        
+    }
+
+
+
+    .pesquisa {
+      display: flex;
+      color: black;
+      align-items: center;
+      text-align: center;
+      margin-left: 900px;
+      flex-direction: row;
+      background-color: rgb(212, 212, 212);
+    
+    }
+    
+
+    .menu {
+        padding: 5px;
+        background-color: #fff;
+       
+    }
+h4 {
+    margin: 12px;
+}
+    .lupahome {
+     background-color: #ffffff;
+     color: #ffffff;
+    
+    }
+
+    
+    .lupahome1 {
+        background-color:  rgb(99,75,233);
+        color: #ffffff;
+       margin-left: 70px;
+       }
+
+       
+
+
+li {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+    
+    .colors {
+        color: deeppink;
+        background-color: rgb(212, 212, 212);
+    }
+
+    .lupa3 {
+        margin-left: 5px;
+        display: flex;
+      width: 30px;
+      height: 30px;
+        flex-direction: row;
+        background-color: rgb(212, 212, 212) ;
+    }
+    
+    .roxo {
+        color: rgb(255, 0, 255);
+        background-color: #ffffff;
+        
+    }
+    .roxo2  {
+        color: rgb(255, 0, 255) !important;
+        background-color: #d3d3d3;
+    }
+
+    .tabela {
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+        padding: 10px;
+        border: 1px solid #000000;
+        width: 750px;
+       
+    }
+    td, tr {
+        padding: 10px;
+        background-color: #ffffff;
+    }
+
+    .fundo {
+        background-color: #d3d3d3;
+       
+       
+    }
+    .texto {
+        text-align: justify;
+        
+    }
+    .nomes {
+      font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #777;
+     text-align: left;
+    background-color: #ffffff !important;
+    }
+    .numeros {
+    background-color: #ffffff;
+    }
+    .foto {
+        background-color: #ffffff;
+        font-size: 16px;
+        margin-left: 400px;
+        margin-top: 45px;
+        color: #777;
+        text-align: end;
+    }
+
+    .botao2 {
+        
+        
+        background-color:  rgb(99,75,233);
+        color: rgb(255, 255, 255);
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 1100px;
+        
+       }
+
+           
+    .preços {
+            
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+       margin-top: 15px;
+        }
+        
+        .quadros {
+            flex: 1;
+            padding: 15px;
+            background-color: #ffffff;
+            text-align: center;
+            border: 1px solid #000000;
+            height: 150px;
+           
+        }
+        
+       .color {
+        background-color: #c6c6c6;
+        color: black;
+       }
+        .tabela {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            width: 1045px;
+            background-color: #fff;
+            margin-top: 40px;
+        }
+        
+        .tabela1 {
+            width: 3000px;
+            height: 400px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 140px;
+            
+            
+        }
+
+       .zero{
+        width: 0px;
+       }
+
+        .mapa {
+        width: 510px !important ;
+        height: 410px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        transition-duration: 3s;
+    }
+
+    .mapa:hover {
+        width: 500px !important;
+        height: 500px;
+    }
+      
+        .tabelinha {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse !important;
+        }
+        
+        .td {
+            padding: 10px;
+          
+            text-align: left;
+        }
+        .final {
+            width: 1895px;
+            background-color: rgb(117, 117, 117);
+            text-align: center;
+            padding: 10px;
+            color: #000000;
+        }
+
+        .preços {
+            height: 100px;
+        }
+
+        .h1 {
+            margin-top: 20px;
+        }
+
+        .pedro {
+           display: flex;
+           margin-top: 5px;
+           
+           margin-left: 1009px;
+           background-color: #d3d3d3;
+           flex-direction: row;
+          text-align: center;
+        }
+
+        .fotoperfil {
+            background-color: #d3d3d3;
+        }
